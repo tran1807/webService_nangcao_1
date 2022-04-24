@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#DFDCDC">
+
+    <TextView
+        android:id="@+id/textViewwId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã hang"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:id="@+id/textViewwTenhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên hang"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:id="@+id/textViewwNamsx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nam sx"
+        android:textSize="20dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:id="@+id/textViewwSoluong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So luong"
+        android:textSize="20dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginLeft="120dp"/>
+    <TextView
+        android:id="@+id/textViewwLoai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loai"
+        android:textSize="20dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginLeft="120dp"/>
+
+    <ImageButton
+        android:id="@+id/ImagebuttonDelete"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="5dp"
+        android:src="@android:drawable/ic_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <ImageButton
+        android:id="@+id/ImagebuttonUpdate"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="55dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewwLoai"
+        android:layout_marginTop="28dp"
+        android:background="#0E0E0E" />
+
+    <ImageView
+        android:id="@+id/imageViewAnhh"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="100dp"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+</RelativeLayout>

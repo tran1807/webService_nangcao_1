@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonHang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/ic_baseline_add_shopping_cart_24"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/textViewHang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonHang"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="20dp"
+        android:text="Hàng"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNhanvien"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="71dp"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textViewNhanvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonNhanvien"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Nhân Viên" />
+
+    <ImageButton
+        android:id="@+id/imageButtonQuaylai"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textViewHang"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="52dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/textViewQuaylai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonQuaylai"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="20dp"
+        android:text="Quay lại"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTrogiup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textViewNhanvien"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="71dp"
+        app:srcCompat="@drawable/ic_baseline_contact_support_24"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <TextView
+        android:id="@+id/textViewTrogiup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonTrogiup"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="Trợ giúp" />
+
+
+</RelativeLayout>
